@@ -1,0 +1,149 @@
+/*** body styles ***/
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  color: #00004d;
+
+}
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+h3 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 36px;
+  text-align: center;
+  margin: 25px 0 50px 0;
+}
+#work h3, #contact h3 {
+  color: #EA8457;
+}
+
+/*** header ***/
+#header {
+  height: 800px;
+  background: url('../img/succulents.png') no-repeat white;
+  text-align: center;
+  background-size: cover;
+  margin: 0;
+}
+#header h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 60px;
+  padding: 200px 160px 5px 160px;
+  margin: auto;
+  color: #EA8457;
+}
+#header p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:48px;
+  padding: 0 160px;
+}
+
+/*** work section ***/
+#work{
+  height: 1450px;
+  font-size: 24px;
+}
+#work .half-width {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#work .container {
+  padding-bottom: 10px;
+  height: 400px;
+}
+
+#work .container_pic{
+  float: left;
+  margin: 0 25px 15px 0;
+}
+
+#work .container_text{
+  display: inline;
+  margin: 10px 20px 15px 0;
+
+}
+
+#work .heading {
+  font-weight: bold;
+  padding-bottom: 0;
+  margin: 16px auto;
+}
+#work .subheading {
+  margin: 0 auto;
+  line-height: 5px;
+}
+
+/*** about ***/
+#about {
+  height: 650px;
+  background-color: #EA8457;
+  color: #FCF7F9;
+}
+#about .half-width{
+  padding: 10px;
+}
+#about .container {
+  padding-bottom: 10px;
+}
+#about .container_pic{
+  float: left;
+  margin: -10px 25px 15px 0;
+}
+#about .container_text{
+  display: inline;
+  margin: 20px 20px 15px 0;
+}
+
+#tagline{
+  line-height: 105px;
+}
+
+/*** contact ***/
+#contact {
+  height: 400px;
+  background-color: #FAF4F0;
+  text-align: center;
+  clear: both;
+}
+#contact .full-width {
+  padding: 15px 0;
+}
+#contact h4 {
+  font-size: 24px;
+  line-height:32px;
+  margin: 30px auto;
+}
+#contact a {
+  text-decoration: none;
+  color: inherit;
+}
+#contact a:hover {
+  color: #EA8457;
+}
+#contact p{
+  line-height: 10px;
+}
+
+/*** copyright ***/
+footer {
+  clear: both;
+  position: relative;
+  top: 80px;
+}
+footer .copyright{
+  font-size: 18px;
+
+}
